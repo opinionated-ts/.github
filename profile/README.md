@@ -36,8 +36,8 @@ Every project in this organization is **open source** — built in the open, sha
 
 **Contributions are more than welcome — they're the whole point.**
 
-> 💬 Found a bug? Open an issue.
-> ✨ Have an idea? Start a discussion.
-> 🔧 Want to improve something? Send a PR.
+- 💬 **Found a bug?** Open an issue.
+- ✨ **Have an idea?** Start a discussion.
+- 🔧 **Want to improve something?** Send a PR.
 
 Whether it's a typo fix, a new feature, or a completely different perspective — every contribution helps shape where this goes next.
