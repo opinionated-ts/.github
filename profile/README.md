@@ -22,7 +22,6 @@ Designed to provide a complete and opinionated development experience, with care
 
 - [`config`](https://github.com/opinionated-ts/config) — Reusable TypeScript development configurations and tooling.
 - [`template`](https://github.com/opinionated-ts/template) — TypeScript project template based on the shared configuration.
-- [`ai-tools`](https://github.com/opinionated-ts/ai-tools) — Tools, skills, and workflows for AI-assisted development.
 - [`ai-spec`](https://github.com/opinionated-ts/ai-spec) — An open specification for conventions around AI-assisted development.
 
 Projects are developed independently and may be at different stages of development.
