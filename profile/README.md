@@ -31,7 +31,6 @@ Designed to provide a complete and opinionated development experience, with care
 
 - [`brain`](https://github.com/opinionated-ts/brain) — The AI brain behind the ecosystem: orchestrates skills, agents, and MCP integrations to power the AI-assisted side of Opinionated TS.
 - [`ai-context-tree`](https://github.com/opinionated-ts/ai-context-tree) - Give humans and AI coding agents a map of your repository — turn `index.instructions.md` files into a navigable context map.
-- [`ai-spec`](https://github.com/opinionated-ts/ai-spec) — An open specification for conventions around AI-assisted development.
 
 Projects are developed independently and may be at different stages of development.
 
