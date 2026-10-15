@@ -1,54 +1,51 @@
 # Opinionated TS
 
-An opinionated, community-driven ecosystem for complete TypeScript development.
+An opinionated ecosystem created by [DanhezCode](https://github.com/DanhezCode) to improve the modern TypeScript and JavaScript development experience.
 
-Built around a simple idea:
+The goal is to solve common developer problems and provide practical tools, configurations, and workflows that make building modern software simpler and more productive.
 
-> Provide a modern and reliable foundation for building TypeScript software — from tooling to AI-assisted workflows.
-
-What started as a set of TypeScript tooling and configs has grown into a broader ecosystem: development environments, tooling, configurations, AI-assisted development capabilities, and best practices, all designed to work together toward one goal — a complete TypeScript development experience.
-
-Some pieces of this ecosystem (like AI skills or specs) may end up being generic enough to be useful outside of TypeScript too — but that's a side effect, not the goal. The goal is TypeScript.
-
-## Philosophy
-
-- Modern defaults
-- Simple configuration
-- Fast developer experience
-- Flexible and customizable foundations
-- AI-assisted development as a first-class citizen, not an afterthought
-
-Designed to provide a complete and opinionated development experience, with carefully selected tools, workflows, and configurations that can be adapted when needed.
+Not every project requires the entire ecosystem. Some tools work independently, others can be used across languages and platforms, and some are designed to work together as part of the Opinionated TS development experience.
 
 ## Projects
 
-### Tooling & configuration
+Projects evolve independently and may be at different stages of maturity.
 
-- [`@opinionated-ts/config`](https://github.com/opinionated-ts/config) — Reusable TypeScript development configurations and tooling.
-- [`@opinionated-ts/template`](https://github.com/opinionated-ts/template) — TypeScript project template built on top of [`@opinionated-ts/config`](https://github.com/opinionated-ts/config).
+### Cross-platform
 
-### AI-assisted development
+Tools that can be useful beyond TypeScript and JavaScript.
 
-- [`brain`](https://github.com/opinionated-ts/brain) — The AI brain behind the ecosystem: orchestrates skills, agents, and MCP integrations to power the AI-assisted side of Opinionated TS.
-- [`ai-context-tree`](https://github.com/opinionated-ts/ai-context-tree) - Give humans and AI coding agents a map of your repository — turn `index.instructions.md` files into a navigable context map.
+- **[ai-context-tree](https://github.com/opinionated-ts/ai-context-tree)** — A contextual map of your codebase for humans and AI coding agents.
+- **[write-once](https://github.com/opinionated-ts/write-once)** — A single source of truth for reusable content and fragments.
 
-Projects are developed independently and may be at different stages of development.
+### TypeScript & JavaScript
 
-> [!WARNING]
-> [`brain`](https://github.com/opinionated-ts/brain) is at a very early, preliminary stage — it's the missing piece needed to power the AI workflow across the ecosystem. Until it matures, [`@opinionated-ts/config`](https://github.com/opinionated-ts/config) and [`@opinionated-ts/template`](https://github.com/opinionated-ts/template) remain stable and ready to use, but do not yet integrate these AI-assisted features.
+Tools and libraries for TypeScript projects that can be used independently of the broader ecosystem.
 
-## 🌱 Open Source, by and for the Community
+- **[config](https://github.com/opinionated-ts/config)** — Opinionated, reusable TypeScript tooling configurations for modern projects.
+- **[error-factory](https://github.com/opinionated-ts/error-factory)** — Type-safe functional error factories with automatic and exact type inference for TypeScript.
+- **[result](https://github.com/opinionated-ts/result)** — A type-safe Result type for functional error handling in TypeScript.
 
-Every project in this organization is **open source** — built in the open, shaped by real use, and free for anyone to explore, fork, or build on.
+### Opinionated TS ecosystem
 
-**Contributions are more than welcome — they're the whole point.**
+Templates and tools built around the ecosystem's recommended development practices and workflows.
 
-- 💬 **Found a bug?** Open an issue.
-- ✨ **Have an idea?** Start a discussion.
-- 🔧 **Want to improve something?** Send a PR.
+- **[template](https://github.com/opinionated-ts/template)** — A ready-to-use TypeScript project template with opinionated tooling defaults.
+- **[package-template](https://github.com/opinionated-ts/package-template)** — An experimental TypeScript project template for packages, libraries, CLIs, and SDKs.
+- **[preact-web-template](https://github.com/opinionated-ts/web-template)** — An experimental TypeScript project template for web development.
+- **[brain](https://github.com/opinionated-ts/brain)** — An experimental AI-assisted development layer for TypeScript projects.
 
-Whether it's a typo fix, a new feature, or a completely different perspective — every contribution helps shape where this goes next.
+## Start building
 
-## 🙏 Acknowledgements
+Starting a new project? Explore the templates listed above to find a preconfigured foundation for your needs, whether you're building a library, SDK, CLI, or web application.
 
-Thanks to [DanhezCode](https://github.com/DanhezCode) for starting this project, and to everyone in the open source community whose work, ideas, and contributions make projects like this possible.
+## Open source
+
+All projects in this organization are open source. Explore the code, report issues, suggest improvements, or contribute.
+
+- **Found a bug?** Open an issue.
+- **Have an idea?** Start a discussion.
+- **Want to improve something?** Submit a pull request.
+
+## Acknowledgements
+
+Thanks to everyone in the open source community whose tools, ideas, and contributions help make these projects possible.
